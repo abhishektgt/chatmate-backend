@@ -15,4 +15,5 @@ app.use("/api/auth", require("./routes/auth"));
 app.use("/api/chat", require("./routes/chat"));
 app.use("/api/user", require("./routes/user"));
 app.use("/api/messages", require("./routes/message"));
+app.use("/api/test", require("./routes/test"));
 app.listen(process.env.PORT, () => console.log(`Server running on port ${process.env.PORT}`));
